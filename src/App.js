@@ -7,7 +7,6 @@ function App() {
     const [message, setMessage] = useState('');
   
     const handleChange = (event) => {
-      // 👇 Get input value from "event"
       setMessage(event.target.value);
     };
 
